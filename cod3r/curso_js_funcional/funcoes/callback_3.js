@@ -28,3 +28,21 @@ console.log(carrinho.map(getNome))
 const getTotal = item => item.qtde * item.preco
 const totais = carrinho.map(getTotal)
 console.log(totais)
+
+console.log('---------------------------------------')
+
+Array.prototype.meuMap = function(fn) {
+    const novoArray = []
+
+    for(let i = 0; i < this.length; i++) {
+        novoArray.push(fn(this[i], i, this))
+    }
+    return novoArray
+}
+
+const getNome2 = item => item.nome
+console.log(carrinho.meuMap(getNome2))
+
+const getTotal2 = item => item.qtde * item.preco
+const totais2 = carrinho.meuMap(getTotal2)
+console.log(totais2)
