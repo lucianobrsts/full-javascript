@@ -33,6 +33,7 @@ function multiplicar(a, b) {
     return a * b
 }
 
+
 const r1 = calcular(10)(5)(subtrair)
 const r2 = calcular(10)(5)(multiplicar)
 
