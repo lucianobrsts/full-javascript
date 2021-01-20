@@ -1,6 +1,6 @@
 //Jquery
 
-// Tenta fazer com que toda a tecnologia funcione geralmente em todos os browsers.
+// jQuery é uma biblioteca de funções JavaScript que interage com o HTML, desenvolvida para simplificar os scripts interpretados no navegador do cliente.
 
 //versão do curso será a 2x;
 
