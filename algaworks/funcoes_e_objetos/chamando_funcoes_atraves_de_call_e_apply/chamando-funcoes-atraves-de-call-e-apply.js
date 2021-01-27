@@ -1,3 +1,5 @@
+// Usando call e apply
+
 var Estado = (function() {
 	function Estado() {
 		this.comboEstado = $('#combo-estado');
